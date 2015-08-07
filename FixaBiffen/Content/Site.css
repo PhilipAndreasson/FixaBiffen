@@ -1,6 +1,13 @@
-﻿body {
+﻿html, body{
+width:100%; 
+height:100%;
+margin:0px;
+
+}
+
+body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     background-color:#3dbeff;
 }
 
@@ -9,6 +16,7 @@
     padding-left: 15px;
     padding-right: 15px;
     background-color:white;
+    height:100%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
